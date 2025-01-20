@@ -1,0 +1,9 @@
+{
+    "print":{
+        "Privilege_Level":1,
+        "Version":"1.0.1",
+        "InputMethod":2,
+        "ExecuteType":1,
+        "DllFilePath":"./dllfile/Print.dll"
+    }
+}
