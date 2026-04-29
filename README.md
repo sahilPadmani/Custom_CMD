@@ -8,7 +8,7 @@ A custom command-line shell for Windows, built from scratch in C++. Instead of r
 
 ## Features
 
-* **Plugin-Based Commands** — Every user-facing command (`Process`, `Pause`, `Resume`, etc.) lives in its own DLL. The shell discovers and loads them at runtime using the Windows `LoadLibrary` / `GetProcAddress` API.
+* **Plugin-Based Commands** — Each command (like `Process`, `Pause`, `Resume`) is implemented as a DLL and loaded at runtime, instead of loading the entire executable.
 * **Dual Mode Shell** — Switch between **Custom mode** (DLL plugin commands) and **Normal mode** (Windows shell) with a single command.
 * **JSON-Driven Configuration** — A central `CommandJsonFile.json` maps command names to their configuration, including DLL path, argument count, and parsing type.
 
