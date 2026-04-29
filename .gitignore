@@ -1,0 +1,14 @@
+# IDE files
+.vscode/
+.idea/
+
+# Build folders
+build/
+bin/
+
+# Temp / logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
